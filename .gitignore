@@ -72,3 +72,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Excludes to prevent .idea and other rider files from copying into git pushes
+# For Rider plugin
+Plugins/Developer/RiderLink
+.idea
+
